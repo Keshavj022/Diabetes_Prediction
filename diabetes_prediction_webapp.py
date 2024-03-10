@@ -1,15 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 10 09:32:20 2024
-
-@author: KIIT
-"""
 
 import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users/KIIT/OneDrive/Desktop/MachineLearning/SavedMachineLearningModels/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 #definig a function
 def diabetes_prediction(input_data):
